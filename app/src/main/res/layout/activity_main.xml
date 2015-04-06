@@ -1,0 +1,53 @@
+<LinearLayout
+    android:id="@+id/container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="MergeRootFrame">
+
+    <Button
+        android:id="@+id/hello_world"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"/>
+
+    <Button
+        android:id="@+id/hello_world_lifecycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World! With Lifecycle"/>
+
+    <Button
+        android:id="@+id/transformation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transformation Example"/>
+
+    <Button
+        android:id="@+id/transformation_flatmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transformation FlatMap Example"/>
+
+    <Button
+        android:id="@+id/filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filter Example"/>
+
+    <Button
+        android:id="@+id/list_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Fragment Example"/>
+
+    <Button
+        android:id="@+id/widget_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Widget and View Example"/>
+
+</LinearLayout>

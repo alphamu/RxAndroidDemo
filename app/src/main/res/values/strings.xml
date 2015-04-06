@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RxAndroid Examples</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_hello_world">HelloWorldActivity</string>
+    <string name="title_activity_hello_world_lifecycle">HelloWorldLifecycleActivity</string>
+    <string name="title_activity_transformation">TransformationActivity</string>
+    <string name="title_activity_filter">FilterActivity</string>
+    <string name="title_activity_transform_using_flat_map">TransformUsingFlatMapActivity</string>
+    <string name="title_activity_edit_text_example">EditTextExample</string>
+</resources>
