@@ -1,10 +1,14 @@
 package com.alimuzaffar.rxjava;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Pair;
 import android.view.View;
 import android.widget.Button;
+
+import com.alimuzaffar.rxjava.util.EndpointsAsyncTask;
 
 
 public class MainActivity extends Activity implements View.OnClickListener {
@@ -37,6 +41,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
     mBtnFilter.setOnClickListener(this);
     mBtnListFragment.setOnClickListener(this);
     mBtnWidgetView.setOnClickListener(this);
+
+    new EndpointsAsyncTask().execute(new Pair<Context, String>(this, "Manfred"));
   }
 
   @Override

@@ -5,8 +5,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".MainActivity"
     tools:ignore="MergeRootFrame">
+
+    <com.alimuzaffar.rxjava.SeparatorTextView
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Say"/>
+
+    <com.alimuzaffar.rxjava.SeparatorTextView
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hello"/>
+
+    <com.alimuzaffar.rxjava.SeparatorTextView
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="World"/>
 
     <Button
         android:id="@+id/hello_world"
