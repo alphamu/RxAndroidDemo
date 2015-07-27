@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SeparatorTextViewFull">
+        <attr name="dividerResId" format="reference"/>
+        <attr name="dividerColor" format="color"/>
+        <attr name="dividerHeight" format="dimension"/>
+        <attr name="dividerTextPadding" format="dimension"/>
+    </declare-styleable>
+</resources>

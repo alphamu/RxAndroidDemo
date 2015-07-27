@@ -9,9 +9,6 @@ import android.util.AttributeSet;
 import android.view.Gravity;
 import android.widget.TextView;
 
-/**
- * Created by Ali on 22/07/2015.
- */
 public class SeparatorTextView extends TextView {
 
 

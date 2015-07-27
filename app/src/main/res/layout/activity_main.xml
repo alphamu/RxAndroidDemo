@@ -9,6 +9,10 @@
     tools:context=".MainActivity"
     tools:ignore="MergeRootFrame">
 
+    <com.alimuzaffar.rxjava.CreditCardEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
     <com.alimuzaffar.rxjava.SeparatorTextView
         android:padding="16dp"
         android:layout_width="match_parent"
